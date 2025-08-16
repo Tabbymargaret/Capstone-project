@@ -5,9 +5,8 @@
 [![DeezerAPI](https://img.shields.io/badge/Deezer_API-1.0-green)](https://developers.deezer.com/)
 # 🎵React Music Player
 
-![Last Commit](https://img.shields.io/github/last-commit/your-username/melodify?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/Tabbymargaret/Capstone-Project?style=flat-square)
 
-...
 <!-- Replace 'your-username/your-repo' with your actual GitHub username and repository name -->
 
 A sleek music player that streams 30-second previews from Deezer's API with search functionality and responsive controls.
