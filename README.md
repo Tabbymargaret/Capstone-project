@@ -3,6 +3,11 @@
 [![React](https://img.shields.io/badge/React-18.2-blue)](https://react.dev/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3-purple)](https://tailwindcss.com/)
 [![DeezerAPI](https://img.shields.io/badge/Deezer_API-1.0-green)](https://developers.deezer.com/)
+## 🕒 Last Updated
+
+![Last Commit](https://img.shields.io/github/last-commit/your-username/your-repo?style=flat-square&label=Last%20Commit&color=blue)
+
+<!-- Replace 'your-username/your-repo' with your actual GitHub username and repository name -->
 
 A sleek music player that streams 30-second previews from Deezer's API with search functionality and responsive controls.
 
