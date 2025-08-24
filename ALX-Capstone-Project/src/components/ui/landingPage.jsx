@@ -1,7 +1,8 @@
-import React from 'react'
-import logo from '../../assets/AppLogo.png'
+import React from "react";
+import logo from "../../assets/AppLogo.png";
 import { motion } from "framer-motion";
-function landingPage() {
+import { Link } from "react-router-dom";
+function LandingPage() {
   return (
     <div className="landing-page items-center justify-center flex flex-col ">
       <motion.img
@@ -20,12 +21,12 @@ function landingPage() {
         transition={{ duration: 1 }}
       >
         Find Your Groove Here!
-          </motion.h1>
-          <button className="mt-4 px-4 py-2 w-48 bg-[var(--color-secondary)] text-white rounded hover:scale-110 cursor-pointer transition-transform duration-500">
-            Get Started
-          </button>
+      </motion.h1>
+      <button className="mt-4 px-4 py-2 w-48 bg-[var(--color-secondary)] text-white rounded hover:scale-110 cursor-pointer transition-transform duration-500">
+        <Link to="/player">Get Started</Link>
+      </button>
     </div>
   );
 }
 
-export default landingPage;
+export default LandingPage;
