@@ -99,7 +99,7 @@ const SearchBar = ({ onSearch, isLoading }) => {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search for songs, artists, or albums..."
-          className="w-full px-6 py-4 pr-20 rounded-full border border-gray-300 
+          className="w-full px-6 py-4 pr-20 rounded-[5px] border border-gray-300 h-[40px] 
                    focus:outline-none focus:ring-4 focus:ring-blue-200 
                    focus:border-blue-400 text-lg shadow-lg"
           disabled={isLoading}
