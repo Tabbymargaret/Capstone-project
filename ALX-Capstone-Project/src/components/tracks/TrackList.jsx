@@ -28,7 +28,7 @@ const TrackList = ({ tracks, onTrackSelect }) => {
   }
 
   return (
-    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid gap-4 md:grid-cols-4 lg:grid-cols-7">
       {tracks.map((track) => (
         <div
           key={track.id}
@@ -46,7 +46,7 @@ const TrackList = ({ tracks, onTrackSelect }) => {
           <p className="text-gray-500 text-xs">Album: {track.album.title}</p>
           
           <div className="mt-3">
-            <audio controls className="w-full h-8">
+            <audio controls className="w-full h-[70px]">
               <source src={track.preview} type="audio/mpeg" />
             </audio>
           </div>

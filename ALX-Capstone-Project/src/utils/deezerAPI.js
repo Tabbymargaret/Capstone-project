@@ -1,17 +1,4 @@
-// const BASE_URL = "https://developers.deezer.com/api";
 
-// export async function searchSongs(query) {
-//   const response = await fetch(
-//     `${BASE_URL}/search?q=${encodeURIComponent(query)}`
-//   );
-//   const data = await response.json();
-//   if (!response.ok) {
-//     throw new Error(`Error: ${response.statusText}`);
-//   } else console.log("Fetched search results:", data);
-//   return data.data;
-// }
-
-// src/utils/api.js
 export const searchSongs = async (query) => {
   try {
     // Using JSONP method to avoid CORS issues
