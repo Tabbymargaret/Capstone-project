@@ -14,7 +14,7 @@ const TrackList = ({ tracks, onTrackSelect }) => {
         <div
           key={track.id}
           onClick={() => onTrackSelect(track)}
-          className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg 
+          className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg
                    transition-shadow cursor-pointer"
         >
           <img
@@ -38,3 +38,6 @@ const TrackList = ({ tracks, onTrackSelect }) => {
 };
 
 export default TrackList;
+
+
+

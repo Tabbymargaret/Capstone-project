@@ -3,6 +3,9 @@ import SearchBar from './components/search/SearchBar';
 import TrackList from './components/tracks/TrackList';
 import PlayerControls from './components/player/MusicPlayer';
 import { searchSongs } from './utils/deezerAPI';
+import './App.css';
+import Footer from './components/layout/Footer';
+
 
 function App() {
   const [tracks, setTracks] = useState([]);
@@ -34,7 +37,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-100 p-6 w-full mx-4">
       <div className="mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">🎵 Music Player</h1>
+          <h1 className="text-4xl font-bold text-gray-800 mb-2">🎵DeeziFy</h1>
           <p className="text-gray-600">Search and play music from Deezer</p>
         </div>
 
@@ -57,6 +60,7 @@ function App() {
 
         <PlayerControls currentTrack={currentTrack} />
       </div>
+      <Footer />
     </div>
   );
 }

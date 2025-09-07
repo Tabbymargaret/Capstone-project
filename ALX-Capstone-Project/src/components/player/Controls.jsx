@@ -55,8 +55,8 @@ const PlayerControls = () => {
         {/* Play/Pause Button with Bounce Animation */}
         <button
           onClick={() => setIsPlaying(!isPlaying)}
-          className="p-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full 
-                   hover:from-blue-600 hover:to-purple-600 transition-all duration-300 
+          className="p-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full
+                   hover:from-blue-600 hover:to-purple-600 transition-all duration-300
                    transform hover:scale-110 shadow-md hover:shadow-lg"
         >
           {isPlaying ? "⏸" : "▶"}
@@ -106,3 +106,4 @@ const PlayerControls = () => {
 };
 
 export default PlayerControls;
+
