@@ -19,7 +19,7 @@ const SearchBar = ({ onSearch, isLoading }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-2xl mx-auto mb-8 w-[1024px] flex self-center m-auto justify-center"
+      className="max-w-2xl mx-auto mb-8"
     >
       <div className="relative justify-self-center ">
         <input
@@ -27,7 +27,7 @@ const SearchBar = ({ onSearch, isLoading }) => {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search for songs, artists, or albums..."
-          className=" w-[1020px] px-6 py-4 pr-20 rounded-[5px] border border-gray-300 h-[40px] 
+          className=" w-[1000px] px-6 py-4 pr-20 rounded-[5px] border border-gray-300 h-[50px] 
                    focus:outline-none focus:ring-4 focus:ring-blue-200 
                    focus:border-blue-400 text-lg shadow-lg"
           disabled={isLoading}
